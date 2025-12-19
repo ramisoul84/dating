@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    border-top: 2px solid rgb(24, 22, 22);
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        height: 4rem;
+
+        .icon-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 0.2rem;
+            cursor: pointer;
+        }
+
+        .icon {
+            height: 2rem;
+        }
+    }
+
+
+}

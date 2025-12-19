@@ -1,0 +1,36 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: white;
+    border-radius: 0.6rem;
+    overflow: hidden;
+
+    .title {
+        position: sticky;
+        align-self: auto;
+        top: 0;
+        padding: 1rem;
+        font-weight: 700;
+    }
+
+    .message {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        gap: 1rem;
+        position: relative;
+        .pic {
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            background-color: tomato;
+        }
+
+        .info{
+            position: absolute;
+            right: 1rem;
+        }
+
+    }
+}

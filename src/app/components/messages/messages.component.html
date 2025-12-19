@@ -1,0 +1,16 @@
+<div class="messages">
+    <div class="title">
+        Messages
+    </div>
+    <div class="message" *ngFor="let message of messages">
+        <div class="pic">
+        </div>
+        <div>
+            {{message.text}}
+        </div>
+        <div class="info">
+            <div class="time">{{message.time}}</div>
+            <div class="read">{{message.status}}</div>
+        </div>
+    </div>
+</div>
